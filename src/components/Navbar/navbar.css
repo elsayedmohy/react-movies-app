@@ -1,0 +1,43 @@
+.header {
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.headerContainer .logoImage {
+  width: 30px;
+  border-radius: 5px;
+  object-fit: contain;
+  margin-right: 8px;
+}
+.headerContainer .logoText {
+  padding: 0px;
+  color: white;
+  font-weight: 600;
+  font-size: 26px;
+  margin: 0px;
+  letter-spacing: 1.5px;
+}
+
+.headerContainer .searchInput {
+  background: none;
+  color: var(--gray1);
+  outline: none;
+  border: 1px solid var(--gray6);
+  font-size: 17px;
+  padding: 0.4em 1em;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.headerContainer .searchInput::placeholder {
+  color: var(--gray2);
+}
